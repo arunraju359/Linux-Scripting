@@ -10,5 +10,6 @@ echo Line3
 # \t  : Start after a TAB Space
 
 echo -e "LineX\nLineY" 
+echo -e "LineA\tLineB"
 
 
