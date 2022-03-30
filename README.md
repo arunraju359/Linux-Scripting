@@ -65,3 +65,9 @@ To gitlab.com:clouddevops-b47/shell-scripting.git
 
 ### ~ : Tindyl is a symbol to denote `HOME DIRECTORY` of the user in Linux
 ### cd ~/  ( Change the directory to `HOME DIRECTORY`)
+
+In Linux, by default your SYSTEM looks for the private key file with the name `id_rsa` in the folder /home/user/.ssh/id_rsa and all the sensitive informatios permission should be 600 without which things will fail.
+
+```
+$ chmod 600 ~/.ssh/id_rsa
+```
