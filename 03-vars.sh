@@ -1,5 +1,5 @@
 #!/bin/bash
-a=10 
+a=10
 # 10 is integer 
 b=abc 
 # abc is a string
@@ -12,5 +12,5 @@ echo ${a}
 echo $b  
 echo $c 
 
+# rm -rf /data/${DATA_DIR}   ----> rm -rf /data/
 
-# rm -rf /data/{DATA_DIR}   ----> rm -rf /data/
