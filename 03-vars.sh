@@ -13,4 +13,6 @@ echo $b
 echo $c 
 
 # rm -rf /data/${DATA_DIR}   ----> rm -rf /data/
+# export a=100  // Declaring a environment variable
+
 
