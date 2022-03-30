@@ -9,6 +9,6 @@ echo Line3
 # \n  : Starts with new line
 # \t  : Start after a TAB Space
 
-echo -e Line1\nLine2 
+echo -e "Line1\nLine2" 
 
 
