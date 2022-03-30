@@ -8,3 +8,4 @@ b=abc
 echo $a 
 echo ${a}
 echo $b  
+echo $c 
