@@ -71,3 +71,11 @@ In Linux, by default your SYSTEM looks for the private key file with the name `i
 ```
 $ chmod 600 ~/.ssh/id_rsa
 ```
+
+
+# Git
+```
+$ git clone URL   
+# git pull   
+$ git push 
+```
