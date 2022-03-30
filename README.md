@@ -79,3 +79,21 @@ $ git clone URL
 # git pull   
 $ git push 
 ```
+
+One more advantage of Shell Scripting is , there are no Data types in SHELL unlike other programming languages
+
+```
+Ex: int a=10 ,string c=verma , char x=a
+
+```
+
+In Bash Everything is a string.
+
+```
+If the input in linux is having any `SPECIAL CHARACTER` we need to declare them in Double Quotes
+```
+
+How to access a variable ?
+```
+echo $a or  echo ${a}
+```
