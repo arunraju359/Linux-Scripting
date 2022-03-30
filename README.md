@@ -3,14 +3,14 @@
 Going forward, I will be using VISUAL STUDIO CODE, to develop the code locally and will preserve them on GitLab centrally.
 
 # Authentication 
-```
-You can either use `git clone https/ssh url's`. If you use ,
 
+You can either use `git clone https/ssh url's`. If you use ,
+```
 1.  https url : You need to enter the username & password of the git all time.
 2.  ssh url   : You don't have to enter any sort of userName or passwords ( Recommended option )
 ```
 
-If you want to do a git clone or git push or git push without any username/ password, do the below process :
+If you want to do a git clone or git push or git push without any `username/ password`, do the below process :
 ```
 1) Move to the directory where you have the SSH Key Pair, in our case, it's batch47
 
@@ -62,3 +62,6 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To gitlab.com:clouddevops-b47/shell-scripting.git
    687c447..5773a82  main -> main
 ```
+
+~ : Tindyl is a symbol to denote `HOME DIRECTORY` of the user in Linux
+cd ~/  ( Change the directory to `HOME DIRECTORY`)
