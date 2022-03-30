@@ -5,7 +5,12 @@ b=abc
 # abc is a string
 # No datatypes in Shell Scripting by default. Everything is a string.
 
+#DATA_DIR=b 
+
 echo $a 
 echo ${a}
 echo $b  
 echo $c 
+
+
+# rm -rf /data/{DATA_DIR}   ----> rm -rf /data/
