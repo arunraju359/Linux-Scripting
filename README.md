@@ -63,5 +63,5 @@ To gitlab.com:clouddevops-b47/shell-scripting.git
    687c447..5773a82  main -> main
 ```
 
-~ : Tindyl is a symbol to denote `HOME DIRECTORY` of the user in Linux
-cd ~/  ( Change the directory to `HOME DIRECTORY`)
+### ~ : Tindyl is a symbol to denote `HOME DIRECTORY` of the user in Linux
+### cd ~/  ( Change the directory to `HOME DIRECTORY`)
