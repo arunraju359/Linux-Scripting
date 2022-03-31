@@ -6,6 +6,10 @@ case $var in
   opt1)
     echo selected first option
     ;;
+
+  opt2)
+    echo selected first option
+    ;;
 esac
 
 
