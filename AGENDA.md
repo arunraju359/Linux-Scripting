@@ -54,5 +54,6 @@ Cyan              36                  46
 ### Redirectors :
 
 ```
->  : Standard Output to a file : ( )
+>  : Standard Output to a file : ( This will override the existing content on the file )
+>>
 ```
