@@ -27,7 +27,8 @@ Syntax for Else If
         commands
     elif[expression2]; then
         commands
-        
+    elif[expression3]; then
+        commands      
     else 
         commands
     fi 
