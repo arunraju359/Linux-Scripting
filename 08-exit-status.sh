@@ -2,4 +2,4 @@
 
 ### Exit status ranges in 0 to 255 
 
-exit 0 
+exit 1
