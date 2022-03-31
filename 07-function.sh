@@ -9,7 +9,7 @@ sample() {
 #sample
 
 stat () {
-    
+    echo
 }
 
 
