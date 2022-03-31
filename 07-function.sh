@@ -14,7 +14,7 @@ stat () {
     echo Bye
 }
 
-state 
+stat
 
 
 
