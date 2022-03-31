@@ -68,7 +68,7 @@ Exit Status : Every command that you execute will return some status code and ba
 ```
 In Linux, exit codes range from 0 to 255.
 
-0 : Exit Code means, command completed successfully
-1-255
+0      : Exit Code means, command completed successfully
+1-255  : Either partially completed or failed 
 
 ```
