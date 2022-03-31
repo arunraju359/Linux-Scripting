@@ -20,5 +20,6 @@ case $ACTION in
     stop)
         echo "Stopping ABC Service"
         ;; 
+    *)
 esac 
 
