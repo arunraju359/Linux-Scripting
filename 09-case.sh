@@ -2,7 +2,8 @@
 
 ACTION=$1
 
-case $var
+case $var in 
+  
   
 esac
 
