@@ -21,6 +21,6 @@ Syntax for If Else
         commands
     fi 
 
-
+Syntax for Else If 
 
 COMMENT
