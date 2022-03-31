@@ -59,5 +59,5 @@ Cyan              36                  46
 
 2> : Standard Error to a file  
 
-&
+&> : Redirects both standard output and standard error
 ```
