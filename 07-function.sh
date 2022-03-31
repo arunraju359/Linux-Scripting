@@ -8,10 +8,5 @@ sample() {
 # Calling the sample function
 sample 
 
-sleep 5
 
-sample 
 
-sleep 5
-
-sample 
