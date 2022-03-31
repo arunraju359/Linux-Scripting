@@ -11,3 +11,7 @@ fi
 START() {
     echo "Start XYZ"
 }
+
+STOP() {
+    echo "Start XYZ"
+}
