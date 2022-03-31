@@ -54,5 +54,5 @@ Cyan              36                  46
 ### Redirectors :
 
 ```
->  : Standard Output to a file 
+>  : Standard Output to a file : ( )
 ```
