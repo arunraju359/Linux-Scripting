@@ -10,11 +10,13 @@ if command is usually seen in 3 forms
 Syntax for if :
 
     if [expression]; then
-    commands
+         commands
     fi 
 
 Syntax for If Else 
 
-
+    if [expression]; then
+        commands
+    fi 
 
 COMMENT
