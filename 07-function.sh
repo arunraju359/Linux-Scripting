@@ -10,6 +10,7 @@ sample() {
 
 stat () {
     echo "LoadAverage on the system from last 1 minute is : $(uptime |  awk -F : '{print $NF}' | awk -F , '{print $1}')"
+    
 }
 
 
