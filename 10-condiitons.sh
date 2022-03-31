@@ -1,3 +1,6 @@
 #!/bin/bash
 
 
+<<COMMENT
+
+COMMENT
