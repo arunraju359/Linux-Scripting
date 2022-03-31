@@ -8,4 +8,4 @@ echo "The name of the script is $0"
 
 echo Testing the single quotes
 
-echo ''
+echo 'The name of the script is $0'
