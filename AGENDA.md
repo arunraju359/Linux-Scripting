@@ -63,4 +63,4 @@ Cyan              36                  46
 &>> : Redirects both standard output and standard error, but appends on the top of the exiting content.
 ```
 
-Exit Status : 
+Exit Status : Every command that you execute will return some status code the 
