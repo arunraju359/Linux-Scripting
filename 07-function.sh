@@ -9,7 +9,7 @@ sample() {
 #sample
 
 stat () {
-    echo
+    echo "LoadAverage on the system from last 1 minute is : $()"
 }
 
 
