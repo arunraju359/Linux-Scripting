@@ -63,7 +63,7 @@ Cyan              36                  46
 &>> : Redirects both standard output and standard error, but appends on the top of the exiting content.
 ```
 
-Exit Status : Every command that you execute will return some status code and based on that code we can decide whether the command is success / failure /partially completed. 
+Exit Status : Every command that you execute will return some status code and based on that code we can decide whether the command is success / failure /partially completed and the command to see the exit code of the previous command is `$?`
 
 ```
 In Linux, exit codes range from 0 to 255.
