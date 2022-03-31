@@ -8,4 +8,6 @@ if [ -z $ACTION ]; then
 fi 
 
 
-START()
+START() {
+    echo "Start XYZ"
+}
