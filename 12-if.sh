@@ -3,6 +3,7 @@
 ACTION=$1 
 
 if [ -z $ACTION ]; then 
-    echo ""
+    echo "Argument is needed, either Start or Stop"
+    exit 1
 
 fi 
