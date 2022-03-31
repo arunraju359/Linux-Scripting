@@ -18,4 +18,4 @@ echo $c
 # Arrays 
 abc=(10 20 30 40 50)
 
-echo First value of the array is ${avc}
+echo First value of the array is ${abc[0]}
