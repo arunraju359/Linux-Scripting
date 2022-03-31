@@ -55,5 +55,5 @@ Cyan              36                  46
 
 ```
 >  : Standard Output to a file : ( This will override the existing content on the file )
->>
+>> : Standard Output to a file : ( But )
 ```
