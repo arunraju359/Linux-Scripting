@@ -13,7 +13,7 @@ ACTION=$1
 # esac
 
 
-case $ACTION 
+case $ACTION in 
 
 esac 
 
