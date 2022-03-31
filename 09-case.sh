@@ -14,6 +14,7 @@ ACTION=$1
 
 
 case $ACTION in 
-
+    start)
+        echo "Starting ABC Service"
 esac 
 
