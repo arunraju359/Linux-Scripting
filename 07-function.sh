@@ -6,7 +6,11 @@ sample() {
 } 
 
 # Calling the sample function
-sample 
+#sample
+
+stat () {
+    
+}
 
 
 
