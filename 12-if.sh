@@ -13,5 +13,5 @@ START() {
 }
 
 STOP() {
-    echo "Start XYZ"
+    echo "Stopping XYZ"
 }
