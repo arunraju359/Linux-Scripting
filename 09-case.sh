@@ -17,5 +17,8 @@ case $ACTION in
     start)
         echo "Starting ABC Service"
         ;; 
+    stop)
+        echo "Starting ABC Service"
+        ;; 
 esac 
 
