@@ -17,6 +17,8 @@ Syntax for If Else
 
     if [expression]; then
         commands
+    else 
+        commands
     fi 
 
 COMMENT
