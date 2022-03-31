@@ -21,6 +21,6 @@ case $ACTION in
         echo "Stopping ABC Service"
         ;; 
     *)
-        echo -e "\e[31m Provided input is invalid : Enter either start OR stop options only"
+        echo -e "\e[31m Provided input is invalid : Enter either start OR stop options only \e[0m"
 esac 
 
