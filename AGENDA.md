@@ -73,9 +73,7 @@ In Linux, exit codes range from 0 to 255.
 
 ```
 
-### Expressions:
-
-Are categorized in to three
+### Expressions are categorized in to three
 ```
     1. Numbers
     2. Strings
