@@ -23,7 +23,7 @@ Syntax for If Else
 
 Syntax for Else If 
 
-    if [expression]; then
+    if [expression1]; then
         commands
     elif
 
