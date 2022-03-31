@@ -25,6 +25,8 @@ Syntax for Else If
 
     if [expression]; then
         commands
+    elif
+
     else 
         commands
     fi 
