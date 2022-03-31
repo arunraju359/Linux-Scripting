@@ -19,3 +19,5 @@ echo $c
 abc=(10 20 30 40 50)
 
 echo First value of the array is ${abc[0]}
+
+echo First value of the array is ${abc[0]}
