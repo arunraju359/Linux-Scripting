@@ -15,3 +15,7 @@ START() {
 STOP() {
     echo "Stopping XYZ"
 }
+
+RESTART() {
+    STOP
+}
