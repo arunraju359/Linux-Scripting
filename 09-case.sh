@@ -21,5 +21,6 @@ case $ACTION in
         echo "Stopping ABC Service"
         ;; 
     *)
+        echo "Provided input is invalid : Enter either start OR stop options only"
 esac 
 
