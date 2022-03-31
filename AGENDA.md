@@ -66,6 +66,6 @@ Cyan              36                  46
 Exit Status : Every command that you execute will return some status code and based on that code we can decide whether the command is success / failure /partially completed. 
 
 ```
-In Linux, 
+In Linux, exit codes range from 0 to 255
 
 ```
