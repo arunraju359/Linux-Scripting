@@ -62,3 +62,5 @@ Cyan              36                  46
 &>  : Redirects both standard output and standard error
 &>> : Redirects both standard output and standard error, but appends on the top of the exiting content.
 ```
+
+Exit:
