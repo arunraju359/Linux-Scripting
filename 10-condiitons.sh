@@ -9,6 +9,6 @@ if command is usually seen in 3 forms
 
 Syntax for if :
 
-if
+if [expression]
 
 COMMENT
