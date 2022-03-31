@@ -8,15 +8,3 @@ if [ -z $ACTION ]; then
 fi 
 
 
-START() {
-    echo "Start XYZ"
-}
-
-STOP() {
-    echo "Stopping XYZ"
-}
-
-RESTART() {
-    STOP 
-    START 
-}
