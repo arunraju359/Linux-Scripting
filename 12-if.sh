@@ -17,5 +17,6 @@ STOP() {
 }
 
 RESTART() {
-    STOP
+    STOP 
+    START 
 }
