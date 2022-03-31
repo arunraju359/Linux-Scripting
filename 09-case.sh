@@ -2,14 +2,14 @@
 
 ACTION=$1
 
-case $var in 
-  opt1)
-    echo selected first option
-    ;;
+# case $var in 
+#   opt1)
+#     echo selected first option
+#     ;;
 
-  opt2)
-    echo selected first option
-    ;;
-esac
+#   opt2)
+#     echo selected second option
+#     ;;
+# esac
 
 
