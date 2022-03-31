@@ -2,6 +2,7 @@
 
 ACTION=$1 
 
-if [ -z $ACTION ]
+if [ -z $ACTION ]; then 
+    echo ""
 
 fi 
