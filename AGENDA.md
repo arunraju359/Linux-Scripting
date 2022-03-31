@@ -21,6 +21,15 @@ Follwoing are the shell scripting topics which we discuss as a part of our proje
 7. Conditions
 8. Loops
 9. Basis of SED Command
+10. Commands
+```
+
+Four types of commands in total :
+```
+1. Binary ( /bin, /sbin )
+2. Alias 
+3. Shell Builtin Commands
+4. Functions
 ```
 
 Colors are of 2 types `FOREGROUND` & `BACKGROUND` Color.
