@@ -7,6 +7,8 @@ if command is usually seen in 3 forms
     2. If-Else
     3. Else-If 
 
-Syntax
+Syntax for if :
+
+if
 
 COMMENT
