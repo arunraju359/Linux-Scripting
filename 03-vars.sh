@@ -16,3 +16,4 @@ echo $c
 # export a=100  // Declaring a environment variable
 
 # Arrays 
+abc
