@@ -2,6 +2,6 @@
 
 ACTION=$1 
 
-if 
+if [ -z $ACTION ]
 
 fi 
