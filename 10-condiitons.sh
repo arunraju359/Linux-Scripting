@@ -13,6 +13,8 @@ Syntax for if :
     commands
     fi 
 
-Syntax for 
+Syntax for If Else 
+
+
 
 COMMENT
