@@ -7,6 +7,10 @@ if [ $ID -ne 0 ] ; then
     exit 2
 fi 
 
+stat() {
+    
+}
+
 echo -n "Installing Web Server: "
 yum install httpd -y &> /tmp/stack.log
 if [ $? -eq 0 ]; then
