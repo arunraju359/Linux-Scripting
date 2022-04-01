@@ -25,4 +25,4 @@ else
 fi 
 
 
-echo -n "Download "
+echo -n "Dow"
