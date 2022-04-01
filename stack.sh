@@ -8,7 +8,11 @@ if [ $ID -ne 0 ] ; then
 fi 
 
 stat() {
-    
+    if [ $? -eq 0 ]; then
+        echo -e "\e[32m Success \e[0m "
+    else 
+        echo -e "\e[31m Failure \e[0m "
+    fi 
 }
 
 echo -n "Installing Web Server: "
@@ -31,8 +35,3 @@ fi
 
 echo -n "Setup student index file"
 curl -s  https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/index.html -o /var/www/html/index.html
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m Success \e[0m "
-else 
-    echo -e "\e[31m Failure \e[0m "
-fi 
