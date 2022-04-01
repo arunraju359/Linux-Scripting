@@ -53,5 +53,5 @@ else
 fi 
 
 echo -n "Downloading the tomcat :"
-wget $TOMCAT_URL -O /home/${FUSER}/
+wget $TOMCAT_URL -o /home/${FUSER}/
 stat $? 
