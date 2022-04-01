@@ -31,3 +31,4 @@ stat $?
 
 echo -n "Starting WebService : "
 systemctl enable httpd  &>> $LOG
+systemctl enable httpd  &>> $LOG
