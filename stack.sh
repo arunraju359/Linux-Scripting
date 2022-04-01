@@ -25,4 +25,5 @@ else
 fi 
 
 
-echo -n "Dow"
+echo -n "Setup student index file"
+curl -s  /etc/httpd/conf.d/proxy.conf 
