@@ -53,4 +53,4 @@ fi
 
 
 echo -n "Downloading the tomcat :"
-wget $TOMCA
+wget $TOMCAT_URL -O /home/student/
