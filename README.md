@@ -7,7 +7,9 @@ Going forward, I will be using VISUAL STUDIO CODE, to develop the code locally a
 Here are the available shell :
 
 ```
-k
+ksh
+zsh
+
 
 ```
 
