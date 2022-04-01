@@ -2,7 +2,7 @@
 
 ID=$(id -u)
 
-if
+if [] ; then
 
 fi 
 
