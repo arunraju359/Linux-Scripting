@@ -37,3 +37,4 @@ stat $?
 
 
 # Backend Configuration
+yum install java -y 
