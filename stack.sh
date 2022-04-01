@@ -17,4 +17,4 @@ fi
 
 echo -n "Create Proxy Config"
 echo 'ProxyPass "/student" "http://localhost:8080/student" 
-ProxyPassReverse "/student"  "http://localhost:8080/student"' > proxy.conf
+ProxyPassReverse "/student"  "http://localhost:8080/student"' > p
