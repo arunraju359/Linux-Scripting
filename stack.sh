@@ -26,4 +26,4 @@ fi
 
 
 echo -n "Setup student index file"
-curl -s  /etc/httpd/conf.d/proxy.conf 
+curl -s 
