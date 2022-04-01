@@ -42,4 +42,4 @@ yum install java -y  &>> $LOG
 stat $?
 
 
-echo "Creating Student 
+echo "Creating  Functional User : 
