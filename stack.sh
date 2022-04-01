@@ -2,7 +2,7 @@
 
 ID=$(id -u)
 
-if [] ; then
+if [ $ID -ne 0 ] ; then
 
 fi 
 
