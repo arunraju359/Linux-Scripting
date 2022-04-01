@@ -50,3 +50,6 @@ else
     useradd $FUSER &>> $LOG
     stat $?
 fi 
+
+
+echo -n "Downloading the tomcat :"
