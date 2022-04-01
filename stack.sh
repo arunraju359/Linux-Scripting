@@ -45,4 +45,4 @@ stat $?
 
 echo -n "Creating $FUSER Functional User : "
 useradd $FUSER &>> $LOG
-stat $?
+stat $?x
