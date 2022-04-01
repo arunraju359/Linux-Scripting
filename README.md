@@ -9,7 +9,9 @@ Here are the available shell :
 ```
 ksh
 zsh
+sh 
 
+bash : Born Again Shell
 
 ```
 
