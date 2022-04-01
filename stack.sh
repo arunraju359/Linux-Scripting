@@ -15,4 +15,4 @@ else
     echo -e "\e[31m Failure \e[0m "
 fi 
 
-echo 
+echo -n 
