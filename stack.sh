@@ -16,6 +16,7 @@ stat() {
     fi 
 }
 
+# Frontend COnfiguration 
 echo -n "Installing Web Server : "
 yum install httpd -y &>> $LOG
 stat $?
