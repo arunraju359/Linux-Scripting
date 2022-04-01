@@ -17,11 +17,7 @@ stat() {
 
 echo -n "Installing Web Server: "
 yum install httpd -y &> /tmp/stack.log
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m Success \e[0m "
-else 
-    echo -e "\e[31m Failure \e[0m "
-fi 
+
 
 echo -n "Create Proxy Config"
 echo 'ProxyPass "/student" "http://localhost:8080/student" 
