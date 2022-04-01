@@ -61,3 +61,4 @@ chown -R $FUSER:$FUSER apache-tomcat-${TOMCAT_VERSION} &>> $LOG
 stat $? 
 
 echo -n "Downloading the WAR File : "
+wget $WAR
