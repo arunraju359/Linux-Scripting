@@ -43,6 +43,6 @@ yum install java -y  &>> $LOG
 stat $?
 
 
-echo "Creating $FUSER Functional User : "
+echo -n "Creating $FUSER Functional User : "
 useradd $FUSER &>> $LOG
 stat $?
