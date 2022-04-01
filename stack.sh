@@ -54,4 +54,4 @@ fi
 
 echo -n "Downloading the tomcat :"
 wget $TOMCAT_URL -O /home/${FUSER}/
-state $? 
+stat $? 
