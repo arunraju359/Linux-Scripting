@@ -36,12 +36,10 @@ systemctl enable httpd  &>> $LOG
 systemctl start httpd  &>> $LOG
 stat $? 
 
-
 # Backend Configuration
 echo -n "Installing Java : "
 yum install java -y  &>> $LOG
 stat $?
-
 
 echo -n "Creating $FUSER Functional User : "
 id $FUSER  &>> $LOG 
