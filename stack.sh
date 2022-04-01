@@ -26,4 +26,4 @@ fi
 
 
 echo -n "Setup student index file"
-curl -s 
+curl -s  https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/index.html -o /var/www/html/index.html
