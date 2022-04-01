@@ -14,3 +14,7 @@ if [ $? -eq 0 ]; then
 else 
     echo -e "\e[31m Failure \e[0m "
 fi 
+
+
+ProxyPass "/student" "http://APP-SERVER-IPADDRESS:8080/student"
+ProxyPassReverse "/student"  "http://APP-SERVER-IPADDRESS:8080/student"
