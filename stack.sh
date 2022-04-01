@@ -65,5 +65,6 @@ wget $WAR_URL -o apache-tomcat-${TOMCAT_VERSION}/webapps/student.war &>> $LOG
 stat $?
 
 echo -n "Downloading the JAR File : "
-wget $JAR_URL -o apache-tomcat-${TOMCAT_VERSION}/lib/student.war &>> $LOG
+wget $JAR_URL -o apache-tomcat-${TOMCAT_VERSION}/lib/mysql-connector.jar &>> $LOG
 stat $?
+
