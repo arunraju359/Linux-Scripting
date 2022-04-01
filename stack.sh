@@ -30,4 +30,4 @@ curl -s  https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/index.html -o /
 stat $?
 
 echo -n "Starting WebService : "
-systemctl enable httpd 
+systemctl enable httpd  &>> $LOG
