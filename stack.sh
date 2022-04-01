@@ -53,4 +53,4 @@ fi
 
 
 echo -n "Downloading the tomcat :"
-wget 
+wget $TOMCA
