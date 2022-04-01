@@ -2,6 +2,7 @@
 
 ID=$(id -u)
 LOG="/tmp/stack.log"
+FUSER="student"
 
 if [ $ID -ne 0 ] ; then
     echo -e "\e[31m You need to execure this script as a root user or with a sudo command \e[0m"
