@@ -37,4 +37,5 @@ stat $?
 
 
 # Backend Configuration
-yum install java -y 
+yum install java -y  &>> $LOG
+stat $?
