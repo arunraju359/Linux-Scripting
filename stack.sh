@@ -54,5 +54,5 @@ fi
 
 echo -n "Downloading the tomcat :"
 cd /home/$FUSER
-wget $TOMCAT_URL
+wget $TOMCAT_URL && 
 stat $? 
