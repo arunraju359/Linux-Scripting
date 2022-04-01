@@ -16,7 +16,7 @@ stat() {
     fi 
 }
 
-# Frontend COnfiguration 
+# Frontend Configuration 
 echo -n "Installing Web Server : "
 yum install httpd -y &>> $LOG
 stat $?
@@ -34,3 +34,6 @@ echo -n "Starting WebService : "
 systemctl enable httpd  &>> $LOG
 systemctl start httpd  &>> $LOG
 stat $? 
+
+
+# Backend Configuration
