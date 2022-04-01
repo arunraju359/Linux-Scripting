@@ -9,6 +9,6 @@ fi
 
 echo "Installing Web Server "
 yum install httpd -y &> /tmp/stack.log
-if [ $? -eq 0 ]
+if [ $? -eq 0 ]; then
 
 fi 
