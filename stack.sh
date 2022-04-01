@@ -45,3 +45,4 @@ stat $?
 
 echo "Creating $FUSER Functional User : "
 useradd $USER &>> $LOG
+stat $?
