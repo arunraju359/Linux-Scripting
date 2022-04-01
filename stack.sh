@@ -22,7 +22,7 @@ stat $?
 
 echo -n "Create Proxy Config"
 echo 'ProxyPass "/student" "http://localhost:8080/student" 
-ProxyPassReverse "/student"  "http://localhost:8080/student"' > /etc/httpd/conf.d/proxy.conf 
+ProxyPassReverse "/student"  "http://localhost:8080/student"' > /etc/httpd/conf.d/proxy.conf  &>> $LOG
 stat $?
 
 echo -n "Setup student index file"
