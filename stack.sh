@@ -5,6 +5,7 @@ LOG="/tmp/stack.log"
 FUSER="student"
 TOMCAT_VERSION="8.5.77"
 TOMCAT_URL="https://dlcdn.apache.org/tomcat/tomcat-8/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz"
+JAR_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/mysql-connector.jar "
 
 if [ $ID -ne 0 ] ; then
     echo -e "\e[31m You need to execure this script as a root user or with a sudo command \e[0m"
