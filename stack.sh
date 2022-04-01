@@ -38,7 +38,7 @@ stat $?
 
 
 # Backend Configuration
-echo "Installing Java : "
+echo -n "Installing Java : "
 yum install java -y  &>> $LOG
 stat $?
 
