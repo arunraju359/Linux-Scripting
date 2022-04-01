@@ -7,5 +7,5 @@ if [ $ID -ne 0 ] ; then
     exit 2
 fi 
 
-echo "Installing Web Server"
+echo "Installing Web Server "
 yum install httpd -y 
