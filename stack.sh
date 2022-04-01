@@ -49,6 +49,7 @@ if [ $? -eq 0 ]; then
     echo -e "\e[32m Skipping \e[0m "
 else 
     useradd $USER &>> $LOG
+    stat $?
 fi 
 
 useradd $FUSER &>> $LOG
