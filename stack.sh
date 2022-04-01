@@ -16,5 +16,5 @@ else
 fi 
 
 
-ProxyPass "/student" "http://APP-SERVER-IPADDRESS:8080/student"
-ProxyPassReverse "/student"  "http://APP-SERVER-IPADDRESS:8080/student"
+ProxyPass "/student" "http://localhost:8080/student"
+ProxyPassReverse "/student"  "http://localhost:8080/student"
