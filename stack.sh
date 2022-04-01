@@ -1,5 +1,5 @@
 #!/bin/bash 
 
-ID
+ID=$(id -u)
 
 yum install httpd -y 
