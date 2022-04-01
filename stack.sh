@@ -70,3 +70,5 @@ stat $?
 
 echo -n "Starting Apache Tomcat : "
 ./apache-tomcat-${TOMCAT_VERSION}/bin/startup.sh  &>> $LOG
+stat $? 
+
