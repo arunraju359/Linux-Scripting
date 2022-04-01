@@ -40,3 +40,6 @@ stat $?
 echo "Installing Java : "
 yum install java -y  &>> $LOG
 stat $?
+
+
+echo "Creating Student 
