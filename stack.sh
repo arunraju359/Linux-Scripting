@@ -10,5 +10,7 @@ fi
 echo "Installing Web Server "
 yum install httpd -y &> /tmp/stack.log
 if [ $? -eq 0 ]; then
-
+    echo "Success"
+else 
+    echo "Failure"
 fi 
