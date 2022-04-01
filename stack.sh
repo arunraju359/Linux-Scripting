@@ -69,4 +69,4 @@ wget $JAR_URL -o apache-tomcat-${TOMCAT_VERSION}/lib/mysql-connector.jar &>> $LO
 stat $?
 
 echo -n "Starting Apache Tomcat : "
-./apache-tomcat-${TOMCAT_VERSION}/bin/star
+./apache-tomcat-${TOMCAT_VERSION}/bin/startup.sh  &>> $LOG
