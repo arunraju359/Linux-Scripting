@@ -63,3 +63,7 @@ stat $?
 echo -n "Downloading the WAR File : "
 wget $WAR_URL -o apache-tomcat-${TOMCAT_VERSION}/webapps/student.war &>> $LOG
 stat $?
+
+echo -n "Downloading the WAR File : "
+wget $WAR_URL -o apache-tomcat-${TOMCAT_VERSION}/webapps/student.war &>> $LOG
+stat $?
