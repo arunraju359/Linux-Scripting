@@ -10,7 +10,7 @@ fi
 echo -n "Installing Web Server: "
 yum install httpd -y &> /tmp/stack.log
 if [ $? -eq 0 ]; then
-    echo -e "\e[Success"
+    echo -e "\e[32m Success \e[0m "
 else 
     echo "Failure"
 fi 
