@@ -48,7 +48,7 @@ id $FUSER  &>> $LOG
 if [ $? -eq 0 ]; then
     echo -e "\e[32m Skipping \e[0m "
 else 
-    useradd $USER 
+    useradd $USER &>> $LOG
 fi 
 
 useradd $FUSER &>> $LOG
