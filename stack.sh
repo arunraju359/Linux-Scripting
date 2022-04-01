@@ -17,7 +17,7 @@ stat() {
 }
 
 echo -n "Installing Web Server: "
-yum install httpd -y &> /tmp/stack.log
+yum install httpd -y &>> $LOG
 stat $?
 
 echo -n "Create Proxy Config"
