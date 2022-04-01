@@ -3,6 +3,7 @@
 ID=$(id -u)
 LOG="/tmp/stack.log"
 FUSER="student"
+TOMCAT_VERSION=
 TOMCAT_URL="https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.tar.gz"
 
 if [ $ID -ne 0 ] ; then
