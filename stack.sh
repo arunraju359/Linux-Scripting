@@ -12,5 +12,5 @@ yum install httpd -y &> /tmp/stack.log
 if [ $? -eq 0 ]; then
     echo -e "\e[32m Success \e[0m "
 else 
-    echo "\e[31m Failure \e[0m] "
+    echo "\e[31m Failure \e[0m "
 fi 
