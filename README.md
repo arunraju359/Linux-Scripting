@@ -4,7 +4,12 @@ Going forward, I will be using VISUAL STUDIO CODE, to develop the code locally a
 
 # Authentication 
 
+Here are the available shell :
 
+```
+k
+
+```
 
 You can either use `git clone https/ssh url's`. If you use ,
 ```
