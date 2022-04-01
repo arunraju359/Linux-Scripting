@@ -54,5 +54,5 @@ fi
 
 echo -n "Downloading the tomcat :"
 cd /home/$FUSER
-wget $TOMCAT_URL && tar -xf apache-tomcat-${TOMCAT_VERSION}.tar.gz
+wget $TOMCAT_URL && tar -xf apache-tomcat-${TOMCAT_VERSION}.tar.gz 
 stat $? 
