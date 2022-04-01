@@ -17,7 +17,7 @@ stat() {
 
 echo -n "Installing Web Server: "
 yum install httpd -y &> /tmp/stack.log
-
+stat $?
 
 echo -n "Create Proxy Config"
 echo 'ProxyPass "/student" "http://localhost:8080/student" 
