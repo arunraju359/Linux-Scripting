@@ -8,4 +8,4 @@ if [ $ID -ne 0 ] ; then
 fi 
 
 echo "Installing Web Server "
-yum install httpd -y 
+yum install httpd -y &> /tmp/stack.log
