@@ -69,7 +69,6 @@ stat $?
 
 echo -n "Downloading the JAR File : "
 wget $JAR_URL -o lib/mysql-connector.jar &>> $LOG
-chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
 stat $?
 
 echo -n "Starting Apache Tomcat : "
