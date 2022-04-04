@@ -47,7 +47,6 @@ yum install java -y  &>> $LOG
 stat $?
 
 
-
 echo -n "Creating the $FUSER Functional User: "
 id $FUSER &>> $LOG 
 if [ $? -eq 0 ]; then 
