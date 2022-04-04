@@ -53,8 +53,7 @@ if [ $? -ne 0 ]; then
    useradd $FUSER 
    stat $?
 else 
-   echo -e "\e[33m Skipping \e[0m" 
-   
+   echo -n "\e[33m Skipping \e[0m"    
 fi 
 
 
