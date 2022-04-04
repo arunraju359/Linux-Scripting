@@ -68,7 +68,7 @@ chown $FUSER:$FUSER webapps/student.war &>> $LOG
 stat $?
 
 echo -n "Downloading the JAR File : "
-wget $JAR_URL -o apache-tomcat-${TOMCAT_VERSION}/lib/mysql-connector.jar &>> $LOG
+wget $JAR_URL -o lib/mysql-connector.jar &>> $LOG
 chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
 stat $?
 
