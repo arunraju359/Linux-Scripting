@@ -60,7 +60,6 @@ fi
 echo -n "Downloading the tomcat :"
 cd /home/$FUSER
 wget $TOMCAT_URL &>> $LOG && tar -xf apache-tomcat-${TOMCAT_VERSION}.tar.gz  &>> $LOG
-chown -R $FUSER:$FUSER apache-tomcat-$TOMCAT_VERSION 
 stat $? 
 
 echo -n "Downloading the WAR File : "
