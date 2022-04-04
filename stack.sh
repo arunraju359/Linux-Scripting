@@ -3,7 +3,7 @@
 ID=$(id -u)
 LOG="/tmp/stack.log"
 FUSER="student"
-TOMCAT_VERSION="8.5.77"
+TOMCAT_VERSION="8.5.78"
 TOMCAT_URL="https://dlcdn.apache.org/tomcat/tomcat-8/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz"
 WAR_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/student.war"
 JAR_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/mysql-connector.jar"
