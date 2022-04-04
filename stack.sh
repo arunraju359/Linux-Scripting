@@ -46,14 +46,7 @@ echo -n "Installing Java : "
 yum install java -y  &>> $LOG
 stat $?
 
-echo -n "Creating $FUSER Functional User : "
-id $FUSER  &>> $LOG 
-if [ $? -eq 0 ]; then
-    echo -e "\e[33m Skipping \e[0m "
-else 
-    useradd $FUSER &>> $LOG
-    stat $?
-fi 
+
 
 echo -n "Creating the $FUSER Functional User: "
 id $FUSER &>> $LOG 
