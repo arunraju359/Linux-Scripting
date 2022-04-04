@@ -32,10 +32,6 @@ echo 'ProxyPass "/student" "http://localhost:8080/student"
 ProxyPassReverse "/student"  "http://localhost:8080/student"' > /etc/httpd/conf.d/proxy.conf 
 stat $?
 
-echo 'ProxyPass "/student" "http://localhost:8080/student"
-ProxyPassReverse "/student"  "http://localhost:8080/student" ' > /etc/httpd/conf.d/proxy.conf 
-
-
 echo -n "Setup student index file : "
 curl -s  https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/index.html -o /var/www/html/index.html   &>> $LOG
 stat $?
