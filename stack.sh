@@ -86,33 +86,8 @@ systemctl enable mariadb  &>> $LOG
 systemctl start  mariadb  &>> $LOG
 stat $?
 
-echo -n "Donwloading the DB Schema: "
-wget $SCHEMA_URL -O /tmp/studentapp.sql &>> $LOG
-stat $? 
-
-echo -n "Injecting the SQL Schema: "
-mysql < /tmp/studentapp.sql
-stat $? 
-
-echo -n "Injecting the Student Context File: "
-cp /tmp/context.xml conf/context.xml  &>> $LOG
-chown $FUSER:$FUSER conf/context.xml &>> $LOG
-stat $?
-
 echo -n "Starting Tomcat: "
 sh bin/startup.sh  &>> $LOG
 stat $?
-
-echo -n "Checking Application Availability:"
-sleep 15 
-curl localhost:8080/$FUSER 
-if [ $? -eq 0 ]; then 
-   echo -e "\e[32m Available \e[0m" 
-else 
-   echo -e "\e[31m Not Available \e[0m"
-fi 
-
-echo -e "************************ \e[32m $FUSER Stack Completed \e[0m ***************************"
-
 
 
