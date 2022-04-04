@@ -1,4 +1,5 @@
 #!/bin/bash 
+set -e
 
 ID=$(id -u)
 LOG="/tmp/stack.log"
