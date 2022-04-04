@@ -50,6 +50,7 @@ stat $?
 echo -n "Creating the $FUSER Functional User: "
 id $FUSER &>> $LOG 
 if [ $? -ne 0 ]; then 
+   cat ""
    useradd $FUSER 
    stat $?
 else 
