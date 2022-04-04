@@ -58,9 +58,6 @@ else
    stat $?
 fi 
 
-echo -n "Copying the context file: "
-cp context.xml /tmp/context.xml &>> $LOG
-
 echo -n "Downloading the Tomcat: "
 cd /home/$FUSER
 wget $TOMCAT_URL &>> $LOG
