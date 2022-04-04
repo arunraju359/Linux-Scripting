@@ -49,7 +49,7 @@ stat $?
 
 echo -n "Creating the $FUSER Functional User: "
 id $FUSER &>> $LOG 
-if [ $? -eq 0 ]; then 
+if [ $? -nq 0 ]; then 
    echo -e "\e[33m Skipping \e[0m" 
 else 
    useradd $FUSER &>> $LOG
