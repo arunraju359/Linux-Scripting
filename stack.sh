@@ -10,7 +10,7 @@ fi
 LOG=/tmp/stack.log
 FUSER=student 
 INDEX_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/index.html"
-APACHE_VERSION="8.5.77"
+APACHE_VERSION="8.5.78"
 TOMCAT_URL="https://dlcdn.apache.org/tomcat/tomcat-8/v$APACHE_VERSION/bin/apache-tomcat-$APACHE_VERSION.tar.gz"
 WAR_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/student.war"
 JAR_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/mysql-connector.jar"
