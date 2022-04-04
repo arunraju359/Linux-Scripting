@@ -72,6 +72,6 @@ chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
 stat $?
 
 echo -n "Starting Apache Tomcat : "
-./apache-tomcat-${TOMCAT_VERSION}/bin/startup.sh  &>> $LOG
+sh apache-tomcat-${TOMCAT_VERSION}/bin/startup.sh  &>> $LOG
 stat $? 
 
