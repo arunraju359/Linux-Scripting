@@ -65,12 +65,12 @@ stat $?
 
 echo -n "Downloading the WAR File : "
 cd apache-tomcat-${TOMCAT_VERSION}
-wget $WAR_URL -o webapps/student.war &>> $LOG
+wget $WAR_URL -O webapps/student.war &>> $LOG
 chown $FUSER:$FUSER webapps/student.war &>> $LOG
 stat $?
 
 echo -n "Downloading the JAR File : "
-wget $JAR_URL -o lib/mysql-connector.jar &>> $LOG
+wget $JAR_URL -O lib/mysql-connector.jar &>> $LOG
 chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
 stat $?
 
