@@ -95,7 +95,8 @@ echo -n "Starting Tomcat: "
 sh bin/startup.sh  &>> $LOG
 stat $?
 
-echo -n ""
+echo -n "Checking Application Availability : "
+
 
 
 
