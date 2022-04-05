@@ -100,7 +100,7 @@ curl localhost:8080/$FUSER
 if [ $? -eq 0 ]; then 
    echo -e "\e[32m AVailable \e[0m" 
 else 
-   useradd $FUSER &>> $LOG
+   
    stat $?
 fi 
 
