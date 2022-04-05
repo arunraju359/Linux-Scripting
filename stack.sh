@@ -62,7 +62,7 @@ else
 fi 
 
 echo "Copying the contex file :"
-cp context.tml /tmp/context.xml  &>> $LOG
+cp context.xml /tmp/context.xml  &>> $LOG
 
 echo -n "Downloading the Tomcat: "
 cd /home/$FUSER
