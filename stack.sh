@@ -61,7 +61,7 @@ else
    stat $?
 fi 
 
-echo "Copying the contex file :"
+echo -n "Copying the contex file :"
 cp context.xml /tmp/context.xml  &>> $LOG
 stat $?
 
