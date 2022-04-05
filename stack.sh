@@ -62,7 +62,7 @@ else
 fi 
 
 echo "Copying the contex file :"
-cp context.tml /tmp/context.xml 
+cp context.tml /tmp/context.xml  &>> $LOG
 
 echo -n "Downloading the Tomcat: "
 cd /home/$FUSER
@@ -85,8 +85,6 @@ stat $?
 echo -n "Downloading DB Schema : "
 curl -s $SCHEMA_URL > /tmp/studentapp.sql &>> $LOG
 stat $?
-
-
 
 # # Setting up MariaDB 
 echo -n "Installing & Starting Mariadb: "
