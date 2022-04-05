@@ -100,7 +100,7 @@ mysql <  /tmp/studentapp.sql
 
 echo -n "Injecting the context file : "
 #### I will try to take the input from the user and update the actual credentials
-sed -i 
+sed  -i  -e "s/DUMMYUSER/student/" -e "s/DUMMYPASSWORD/password/" text.txt
 cp /tmp/context.xml conf/context.xml
 stat $?
 
