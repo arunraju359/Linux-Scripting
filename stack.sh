@@ -94,7 +94,7 @@ echo -n "Injecting he schema : "
 mysql <  /tmp/studentapp.sql
 
 echo -n "Injecting the context file : "
-cp
+cp context.xml 
 
 echo -n "Starting Tomcat: "
 sh bin/startup.sh  &>> $LOG
