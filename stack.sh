@@ -77,6 +77,7 @@ stat $?
 echo -n "Downloading the JDBC Jar file: "
 wget $JAR_URL -O lib/mysql-connector.jar &>> $LOG 
 chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
+stat $?
 
 echo -n "Downloading DB Schema : "
 curl -s $SCHEMA_URL > /tmp/studentapp.sql &>> $LOG
