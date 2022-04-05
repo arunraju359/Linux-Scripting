@@ -96,6 +96,7 @@ sh bin/startup.sh  &>> $LOG
 stat $?
 
 echo -n "Checking Application Availability : "
+curl localhost:8080/$FUSER 
 
 
 
