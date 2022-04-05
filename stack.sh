@@ -80,7 +80,7 @@ stat $?
 
 echo -n "Downloading DB Schema : "
 curl -s $SCHEMA_URL > /tmp/studentapp.sql &>> $LOG
-stat $
+stat $?
 
 # # Setting up MariaDB 
 echo -n "Installing & Starting Mariadb: "
