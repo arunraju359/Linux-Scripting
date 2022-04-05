@@ -84,7 +84,7 @@ curl -s $SCHEMA_URL > /tmp/studentapp.sql &>> $LOG
 # stat $
 
 # # Setting up MariaDB 
-# echo -n "Installing & Starting Mariadb: "
+echo -n "Installing & Starting Mariadb: "
 yum install mariadb-server -y &>> $LOG
 systemctl enable mariadb  &>> $LOG
 systemctl start  mariadb  &>> $LOG
