@@ -88,7 +88,7 @@ systemctl enable mariadb  &>> $LOG
 systemctl start  mariadb  &>> $LOG
 stat $?
 
-echo -n "Inje"
+echo -n "Injecting he schema : "
 
 echo -n "Starting Tomcat: "
 sh bin/startup.sh  &>> $LOG
