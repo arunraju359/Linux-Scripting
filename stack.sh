@@ -81,7 +81,7 @@ stat $?
 
 echo -n "Downloading the DB Schema : "
 wget $SCHEMA_URL -O /tmp/studentapp.sql &>> $LOG
-stat $
+# stat $
 
 # Setting up MariaDB 
 echo -n "Installing & Starting Mariadb: "
