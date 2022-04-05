@@ -104,5 +104,4 @@ else
    echo -e "\e[31m Not yet available. Please check the catalina logs \e[0m" 
    stat $?
 fi 
-
 echo -e " ********************************* \e[32m $FUSER Stack Completed \e[0m ********************************* "
