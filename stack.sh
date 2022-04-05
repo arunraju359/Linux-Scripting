@@ -99,6 +99,7 @@ mysql <  /tmp/studentapp.sql
 
 
 echo -n "Injecting the context file : "
+
 cp /tmp/context.xml conf/context.xml
 stat $?
 
