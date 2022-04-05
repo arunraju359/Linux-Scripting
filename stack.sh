@@ -89,7 +89,7 @@ systemctl start  mariadb  &>> $LOG
 stat $?
 
 echo -n "Injecting he schema : "
-mysql < 
+mysql <  /tmp/studentapp.sql 
 
 echo -n "Starting Tomcat: "
 sh bin/startup.sh  &>> $LOG
