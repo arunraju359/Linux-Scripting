@@ -95,7 +95,7 @@ echo -n "Starting Tomcat: "
 sh bin/startup.sh  &>> $LOG
 stat $?
 
-echo
+echo -n ""
 
 
 
