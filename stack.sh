@@ -62,6 +62,8 @@ else
 fi 
 
 echo "Copying the contex file :"
+cp context.tml /
+
 echo -n "Downloading the Tomcat: "
 cd /home/$FUSER
 wget $TOMCAT_URL &>> $LOG
