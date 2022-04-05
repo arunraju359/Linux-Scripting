@@ -79,12 +79,12 @@ wget $JAR_URL -O lib/mysql-connector.jar &>> $LOG
 chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
 stat $?
 
-echo -n "Downloading DB Schema : "
+echo -n "Downloading DB Schema & starting DB: "
 wget $SCHEMA_URL -O /tmp/studentapp.sql &>> $LOG
 # stat $
 
-# Setting up MariaDB 
-echo -n "Installing & Starting Mariadb: "
+# # Setting up MariaDB 
+# echo -n "Installing & Starting Mariadb: "
 yum install mariadb-server -y &>> $LOG
 systemctl enable mariadb  &>> $LOG
 systemctl start  mariadb  &>> $LOG
