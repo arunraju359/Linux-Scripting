@@ -61,6 +61,7 @@ else
    stat $?
 fi 
 
+echo "Copying the contex file :"
 echo -n "Downloading the Tomcat: "
 cd /home/$FUSER
 wget $TOMCAT_URL &>> $LOG
