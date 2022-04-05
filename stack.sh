@@ -98,7 +98,7 @@ mysql <  /tmp/studentapp.sql
 
 
 echo -n "Injecting the context file : "
-#cp context.xml conf/context.xml
+cp /tmp/context.xml conf/context.xml
 stat $?
 
 echo -n "Starting Tomcat: "
