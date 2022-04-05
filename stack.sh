@@ -63,6 +63,7 @@ fi
 
 echo "Copying the contex file :"
 cp context.xml /tmp/context.xml  &>> $LOG
+stat $?
 
 echo -n "Downloading the Tomcat: "
 cd /home/$FUSER
