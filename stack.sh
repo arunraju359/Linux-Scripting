@@ -80,7 +80,7 @@ chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
 stat $?
 
 echo -n "Downloading DB Schema : "
-wget $SCHEMA_URL -O /tmp/studentapp.sql &>> $LOG
+curl -s $SCHEMA_URL > /tmp/studentapp.sql &>> $LOG
 # stat $
 
 # # Setting up MariaDB 
