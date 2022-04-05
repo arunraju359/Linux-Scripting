@@ -79,7 +79,7 @@ wget $JAR_URL -O lib/mysql-connector.jar &>> $LOG
 chown $FUSER:$FUSER lib/mysql-connector.jar &>> $LOG
 stat $?
 
-echo -n "Downloading DB Schema & starting DB: "
+echo -n "Downloading DB Schema : "
 wget $SCHEMA_URL -O /tmp/studentapp.sql &>> $LOG
 # stat $
 
