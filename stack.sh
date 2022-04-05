@@ -88,3 +88,4 @@ sh bin/startup.sh  &>> $LOG
 stat $?
 
 
+
