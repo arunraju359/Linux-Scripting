@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-set -e 
+set -e
 
 ### Check whether the user running this script is root user or not 
 ID=$(id -u)
