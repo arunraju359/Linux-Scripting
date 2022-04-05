@@ -99,7 +99,7 @@ mysql <  /tmp/studentapp.sql
 
 
 echo -n "Injecting the context file : "
-#### I will try to take the input from the user and update the actual credentia
+#### I will try to take the input from the user and update the actual credentials
 cp /tmp/context.xml conf/context.xml
 stat $?
 
