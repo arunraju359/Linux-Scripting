@@ -93,6 +93,7 @@ stat $?
 echo -n "Injecting he schema : "
 mysql <  /tmp/studentapp.sql
 
+
 echo -n "Injecting the context file : "
 pwd
 #cp context.xml conf/context.xml
