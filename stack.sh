@@ -96,7 +96,7 @@ sh bin/startup.sh  &>> $LOG
 stat $?
 
 echo -n "Checking Application Availability : "
-sleep 15
+
 
 
 
