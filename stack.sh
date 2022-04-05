@@ -98,7 +98,6 @@ mysql <  /tmp/studentapp.sql
 
 
 echo -n "Injecting the context file : "
-pwd
 #cp context.xml conf/context.xml
 stat $?
 
