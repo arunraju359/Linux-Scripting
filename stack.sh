@@ -16,6 +16,7 @@ WAR_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/student.war"
 JAR_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/mysql-connector.jar"
 SCHEMA_URL="https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/studentapp-ui-proj.sql"
 
+
 stat() {
    if [ $1 -eq 0 ]; then 
        echo -e "\e[32m Success \e[0m"
