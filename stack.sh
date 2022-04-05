@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+set -e 
+
 ### Check whether the user running this script is root user or not 
 ID=$(id -u)
 if [ "$ID" -ne 0 ]; then 
