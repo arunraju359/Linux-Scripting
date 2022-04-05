@@ -97,8 +97,10 @@ stat $?
 
 echo -n "Checking Application Availability : "
 curl localhost:8080/$FUSER 
-
-
-
-
+if [ $? -eq 0 ]; then 
+   echo -e "\e[33m Skipping \e[0m" 
+else 
+   useradd $FUSER &>> $LOG
+   stat $?
+fi 
 
