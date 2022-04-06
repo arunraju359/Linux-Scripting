@@ -1,0 +1,25 @@
+- name: Conditions
+  hosts: all 
+  vars:
+    actions: false
+    foo: asdfsad
+  tasks:
+    - name: Run when OS is CentOS 
+      debug:
+        msg: Hello To CentOS 
+      when: ansible_distribution == "CentOS"
+
+    - name: Run when OS is Ubuntu 
+      debug:
+        msg: Hello To Ubuntu 
+      when: ansible_distribution == "Ubuntu"
+    
+    - name: Run an action 
+      debug:
+        msg: hello 
+      when: actions
+
+    - name: fail if foo undefined 
+      debug:
+        msg: Hello foo is delcared
+      when: foo is defined
