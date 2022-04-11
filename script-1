@@ -4,7 +4,7 @@ echo "This is file for script - 1"
 echo "Enter your name:"
 read name
 echo "Entered name is : $name"
-echo $BASH
-echo $BASH_VERSION
-echo $PWD
-echo $HOME
+echo Our current working shell is $BASH
+echo Bash version is $BASH_VERSION
+echo working directory is $PWD
+echo Our Home Directory is : $HOME
