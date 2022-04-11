@@ -1,2 +1,6 @@
 #!/bin/bash
 echo Hai
+echo "This is file for script - 1"
+echo "Enter your name:"
+read name
+echo "Entered name is : $name"
