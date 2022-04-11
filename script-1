@@ -1,9 +1,8 @@
 #!/bin/bash
 echo Hai
 echo "This is file for script - 1"
-echo "Enter your name:"
-read name
-echo "Entered name is : $name"
+read -p 'Enter the name : ' username
+echo "Entered name is : $username"
 echo Our current working shell is $BASH
 echo Bash version is $BASH_VERSION
 echo working directory is $PWD
