@@ -147,7 +147,7 @@ Change from one directory to another
  -> Copy a directory 
     $ cp -r dir1 dir2
 
- -> Renaming / Moving a directory
+ ***->*** Renaming / Moving a directory
     $ mv source destination
 
     ** If destination does not exists: Rename the directory
