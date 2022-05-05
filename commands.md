@@ -135,6 +135,7 @@ To check in which directory you are in
     $ pwd
 ```
 
+
 Change from one directory to another
     $ cd <directory>
 
