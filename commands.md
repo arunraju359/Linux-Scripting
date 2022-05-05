@@ -150,8 +150,8 @@ Change from one directory to another
 * *Renaming / Moving a directory
     $ mv source destination
 
-    ** If destination does not exists: Rename the directory
-    ** If destination exists:
+    * If destination does not exists: Rename the directory
+    * If destination exists:
          -> Destination is a file:
                 Invalid operation
          -> Destination is a Directory:
