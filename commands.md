@@ -109,7 +109,7 @@ DotDot(..) denotes parent directory
 #sudo , this will temoporariy gives the root privilege, which means that command will be executed as a root users
 
 
-#su : switch user 
+# su : switch user 
 
 
 
