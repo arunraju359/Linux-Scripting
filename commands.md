@@ -145,7 +145,7 @@ Change from one directory to another
     $ cd - -> This will take you to previous dir 
     $ cd .. -> Takes you to parent directory 
 ```
-
+### Direc
  -> Create Directory 
     $ mkdir demo 
 
