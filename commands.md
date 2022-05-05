@@ -215,8 +215,8 @@ cut -d ":" -f1,7 /etc/passwd (This prints all the lines with field1 and 7 )
 ### User Management
 ```
 Create a user account named cloudcareers
-  $ useradd cloudcareers  
-  at /etc/group   
+  $ sudo useradd cloudcareers  
+  $ cat /etc/group   
 usermod -a -G groupName UserNameToAdd   //This will add the user to the group
 passwd userName   //To change the password of the user
 
