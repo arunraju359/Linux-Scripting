@@ -109,7 +109,7 @@ DotDot(..) denotes parent directory
 #sudo , this will temoporariy gives the root privilege, which means that command will be executed as a root users
 
 
-# su : switch user 
+### su : switch user 
 ```
 Command to switch from one user to another user
 su -, ensure you pwd will be changed along with the user
