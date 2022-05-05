@@ -7,7 +7,6 @@ Corporate : RedHat , CentOS ,  Ubuntu , Fedora , IBM AIX , HP_Unix , Cisco Unix 
 ```
 
 ### Linux Command Standard Syntax:
-.....................................
 
 Command-name {options} {inputs} 
 ```
