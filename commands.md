@@ -252,7 +252,7 @@ The editor vi/vim works in 3 modes :
  2) COLON Mode 
  3) INSERT Mode 
  
- #vim filename  --> To enter smething, yiu've to be in INSERT Mode --> pres i 
+ * vim filename  --> To enter smething, yiu've to be in INSERT Mode --> pres i 
  
  After entering the data , if you want to save :
  
