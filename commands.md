@@ -239,8 +239,9 @@ passwd userName   //To change the password of the user
           
     ** gedit
     ** nano 
-    
-File Editors in Linux :
+```
+
+# File Editors in Linux :
 There are a lot of fancy editors in Linux --> vi ,vim , nano are few famours editors to edit the file.
 They are just notepad,
 
