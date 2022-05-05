@@ -169,12 +169,14 @@ Change from one directory to another
 ```
 
 ### Filters:
+```
     * See the complete content inside a file..
        $ cp /etc/passwd .
        $ cat passwd
        $ cat -n passwd 
        $ tac passwd 
-       
+```
+    
 head  : This prints the top 10 lines by default of the file
 tail  : This prints the last/bottom 10 lines by default of the file
 
