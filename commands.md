@@ -53,7 +53,7 @@ DISK
 
 Linux Shortcuts : https://github.com/fliptheweb/bash-shortcuts-cheat-sheet
 
-#Linux Prompts:
+# Linux Prompts:
 ```
     $ -> Normal User
     # -> Root User (Administrator)
