@@ -197,6 +197,7 @@ Change from one directory to another
 ```
 ### cut sed  awk : Advanced Filtering Tools on linux
 
+```
 sed cut awk  //These are the most power tools in linux which comes by default.
 
 sed -n -e '10,15 p' /etc/passwd  //Prints the lines between 10 to 15
