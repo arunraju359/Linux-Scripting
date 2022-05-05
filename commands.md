@@ -209,6 +209,7 @@ operator:x:11:0:operator:/root:/sbin/nologin
 #grep is a filter to the output as per your choice
 cut -d ":" -f1,7 /etc/passwd (This prints all the lines with field1 and 7 )
 
+``` 
 
 Creating the users :
 #useradd cloudcareers  //Creates the user
