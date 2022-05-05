@@ -144,7 +144,7 @@ Change from one directory to another
     rm / rmdir (Empty Dir)
     $ rm -r dirname
 
- -> Copy a directory 
+ Copy a directory 
     $ cp -r dir1 dir2
 
  ***->*** Renaming / Moving a directory
