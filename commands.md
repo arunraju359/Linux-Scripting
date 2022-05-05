@@ -176,9 +176,9 @@ Change from one directory to another
        $ cat -n passwd 
        $ tac passwd 
 ```
-    
-head  : This prints the top 10 lines by default of the file
-tail  : This prints the last/bottom 10 lines by default of the file
+
+`head`  : This prints the top 10 lines by default of the file
+`tail`  : This prints the last/bottom 10 lines by default of the file
 
  -> By line numbers.
         --> Print from starting of the file 
