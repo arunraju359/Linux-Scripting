@@ -219,7 +219,7 @@ cat /etc/group   //To see the list of users in the group
 usermod -a -G groupName UserNameToAdd   //This will add the user to the group
 passwd userName   //To change the password of the user
 
-   
+```   
 
     -> Search a word and print those lines 
         Syntax: grep word file 
