@@ -221,8 +221,8 @@ Create a user account named cloudcareers
 Adding User to the Group
   $ sudo usermod -a -G groupName UserNameToAdd  
 
-
-  $passwd userName   
+Chanding the user password
+  $ passwd userName   
 
 ```   
 
