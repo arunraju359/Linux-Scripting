@@ -118,7 +118,7 @@ su -, ensure you pwd will be changed along with the user
 
 # Directories:
 
-/ -> Root Directory
+* / -> Root Directory
 
 Types of files:
     d - Directory   
