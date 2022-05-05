@@ -129,10 +129,11 @@ Types of files:
     S - socket files 
     p - Named pipe file 
 ```
-###
-
+### pwd: present working directory
+```
 To check in which directory you are in 
     $ pwd
+```
 
 Change from one directory to another
     $ cd <directory>
