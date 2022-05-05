@@ -119,7 +119,7 @@ su -, ensure you pwd will be changed along with the user
 # Directories:
 
 * / -> Root Directory
-
+```
 Types of files:
     d - Directory   
     - - Regular file 
@@ -128,6 +128,8 @@ Types of files:
     c - character files 
     S - socket files 
     p - Named pipe file 
+```
+
 
 To check in which directory you are in 
     $ pwd
