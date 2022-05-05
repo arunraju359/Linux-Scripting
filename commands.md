@@ -194,6 +194,8 @@ Change from one directory to another
 
             $ tail -3 passwd 
                 It prints last 3 lines 
+```
+### cut sed  awk : Advanced Filtering Tools on linux
 
 sed cut awk  //These are the most power tools in linux which comes by default.
 
