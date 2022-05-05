@@ -258,7 +258,7 @@ The editor vi/vim works in 3 modes :
  3) INSERT Mode 
  
  * vim filename  --> To enter smething, yiu've to be in INSERT Mode --> pres i 
- 
+
  After entering the data , if you want to save :
  
 First clock ESC --> COLON --> wq!
