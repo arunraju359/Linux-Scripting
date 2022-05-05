@@ -200,6 +200,7 @@ Change from one directory to another
 ```
 sed cut awk  //These are the most power tools in linux which comes by default.
 
+cut -d : -f1 /etc/passwd         
 sed -n -e '10,15 p' /etc/passwd  //Prints the lines between 10 to 15
 
 I want to print 10th line of a file
