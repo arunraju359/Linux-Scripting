@@ -232,6 +232,7 @@ passwd userName   //To change the password of the user
         $ cut -d : -f 1-5 passwd
 
 ### EDITORS:
+```
     ** vi / vim (so widely used)
         vim editor is not available by default in centos 7 and we need to install it, To install vim editor type the following command.
           sudo yum install vim -y
