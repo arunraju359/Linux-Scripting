@@ -213,10 +213,11 @@ cut -d ":" -f1,7 /etc/passwd (This prints all the lines with field1 and 7 )
 ``` 
 
 ### User Management
-#useradd cloudcareers  //Creates the user
-#cat /etc/group   //To see the list of users in the group
-#usermod -a -G groupName UserNameToAdd   //This will add the user to the group
-#passwd userName   //To change the password of the user
+```
+useradd cloudcareers  //Creates the user
+cat /etc/group   //To see the list of users in the group
+usermod -a -G groupName UserNameToAdd   //This will add the user to the group
+passwd userName   //To change the password of the user
 
    
 
