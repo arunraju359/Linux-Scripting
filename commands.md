@@ -168,7 +168,7 @@ Change from one directory to another
                 File/Directory will move inside that directory
 ```
 
-Filters:
+### Filters:
     -> See the complete content inside a file..
        $ cp /etc/passwd .
        $ cat passwd
