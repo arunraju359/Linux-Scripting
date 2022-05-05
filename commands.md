@@ -137,12 +137,14 @@ To check in which directory you are in
 
 ### general Directory Switch Commands
 
+```
 Change from one directory to another
     $ cd <directory>
 
     $ cd -> This will take you to home directory 
     $ cd - -> This will take you to previous dir 
     $ cd .. -> Takes you to parent directory 
+```
 
  -> Create Directory 
     $ mkdir demo 
