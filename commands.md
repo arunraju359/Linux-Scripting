@@ -145,7 +145,8 @@ Change from one directory to another
     $ cd - -> This will take you to previous dir 
     $ cd .. -> Takes you to parent directory 
 ```
-### Direc
+### Directory sandbox 
+```
  -> Create Directory 
     $ mkdir demo 
 
@@ -165,6 +166,7 @@ Change from one directory to another
                 Invalid operation
          -> Destination is a Directory:
                 File/Directory will move inside that directory
+```
 
 Filters:
     -> See the complete content inside a file..
