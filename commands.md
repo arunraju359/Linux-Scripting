@@ -242,10 +242,12 @@ passwd userName   //To change the password of the user
 ```
 
 # File Editors in Linux :
+
 There are a lot of fancy editors in Linux --> vi ,vim , nano are few famours editors to edit the file.
 They are just notepad,
 
 The editor vi/vim works in 3 modes :
+```
  1) ESC Mode 
  2) COLON Mode 
  3) INSERT Mode 
